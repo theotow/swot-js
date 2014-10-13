@@ -1,8 +1,8 @@
 {
   "name": "swot-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js implementation of swot",
-  "main": "swot.js",
+  "main": "lib/swot.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha -r lib/require.js -c -R spec -u bdd"
   },
