@@ -4,12 +4,16 @@
   "description": "js implementation of swot",
   "main": "lib/swot.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha -r lib/require.js -c -R spec -u bdd"
+    "test": "node_modules/mocha/bin/mocha -r lib/require.js -c -R spec -u bdd",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^1.21.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "chai": "^1.9.2",
