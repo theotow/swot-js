@@ -13,6 +13,8 @@ before_script:
 script:
   - npm run coverage
   - npm run check-coverage
+after_success:
+  - npm run report-coverage
 branches:
   only:
     - master

@@ -7,11 +7,13 @@
     "test": "mocha",
     "coverage": "istanbul cover _mocha",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 50 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "codecov.io": "0.1.6",
     "istanbul": "0.4.5",
     "mocha": "^1.21.4"
   },
