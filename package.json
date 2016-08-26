@@ -4,7 +4,9 @@
   "description": "js implementation of swot",
   "main": "lib/swot.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha -r lib/require.js -c -R spec -u bdd",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 50 --functions 100 --lines 100",
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "author": "",

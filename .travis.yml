@@ -1,4 +1,20 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
+  - '4'
+before_install:
+  - npm i -g npm@^3.0.0
+notifications:
+  email: false
+cache:
+  directories:
+    - node_modules
+before_script:
+  - npm prune
+script:
+  - npm run coverage
+  - npm run check-coverage
+branches:
+  only:
+    - master
+  except:
+    - /^v\d+\.\d+\.\d+$/
