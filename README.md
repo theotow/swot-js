@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/theotow/swot-js.svg?branch=master)](https://travis-ci.org/theotow/swot-js)
 
+[![codecov](https://img.shields.io/codecov/c/github/theotow/swot-js.svg)](https://codecov.io/github/theotow/swot-js)
+[![version](https://img.shields.io/npm/v/swot-js.svg)](http://npm.im/swot-js)
+[![downloads](https://img.shields.io/npm/dm/swot-js.svg)](http://npm-stat.com/charts.html?package=swot-js&from=2016-08-27)
+[![ISC License](https://img.shields.io/npm/l/swot-js.svg)](https://opensource.org/licenses/ISC)
+
 If you have a product or service and offer **academic discounts**, there's a good chance there's some manual component to the approval process. Perhaps `.edu` email addresses are automatically approved because, for the most part at least, they're associated with American post-secondary educational institutions. Perhaps `.ac.uk` email addresses are automatically approved because they're guaranteed to belong to British universities and colleges. Unfortunately, not every country has an education-specific TLD (Top Level Domain) and plenty of schools use `.com` or `.net`.
 
 Swot is a community-driven or crowdsourced library for verifying that domain names and email addresses are tied to a legitimate university of college - more specifically, an academic institution providing higher education in tertiary, quaternary or any other kind of post-secondary education in any country in the world.

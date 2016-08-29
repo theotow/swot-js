@@ -1,3 +1,6 @@
+var expect = require('chai').expect;
+var should = require('chai').should();
+
 var assert = require("assert");
 
 describe('Swot', function(){
@@ -13,7 +16,7 @@ describe('Swot', function(){
       var swot = require("../lib/swot.js")(function(){
       		assert.equal("Fachhochschule Stuttgart, Hochschule der Medien\n",swot.check("mv037@hdm-stuttgart.de"));
       		done();
-      });	
+      });
     });
   });
   describe('test @test.de', function(){
@@ -21,7 +24,7 @@ describe('Swot', function(){
       var swot = require("../lib/swot.js")(function(){
       		assert.equal(false,swot.check("mv037@test.de"));
       		done();
-      });	
+      });
     });
   });
   describe('test @si.edu (blacklisted)', function(){
@@ -29,7 +32,7 @@ describe('Swot', function(){
       var swot = require("../lib/swot.js")(function(){
       		assert.equal(false,swot.check("mv037@si.edu"));
       		done();
-      });	
+      });
     });
   });
 });
