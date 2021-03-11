@@ -20,6 +20,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "repository": "git@github.com:theotow/swot-js.git",
   "dependencies": {
     "chai": "^1.9.2",
     "underscore": "^1.7.0",
