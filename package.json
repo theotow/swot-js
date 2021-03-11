@@ -1,6 +1,6 @@
 {
   "name": "swot-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "js implementation of swot",
   "main": "lib/swot.js",
   "scripts": {
