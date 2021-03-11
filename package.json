@@ -18,7 +18,7 @@
     "mocha": "^1.21.4"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "chai": "^1.9.2",
